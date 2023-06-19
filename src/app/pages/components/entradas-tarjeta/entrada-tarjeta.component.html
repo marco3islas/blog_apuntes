@@ -1,0 +1,17 @@
+<mat-card class="card" *ngFor="let entrada of entradasList" >
+  <mat-card-header>
+    <mat-card-title>{{ entrada.titulo }}</mat-card-title>
+    <mat-card-subtitle>{{ entrada.subtitulo }}</mat-card-subtitle>
+  </mat-card-header>
+  <img mat-card-image src="/assets/img/{{entrada.img}}" alt="logo de TypeScript">
+  <mat-card-content>
+    <p>
+      {{ entrada.resumen }}
+    </p>
+  </mat-card-content>
+  <mat-card-actions>
+    <button mat-button>LIKE</button>
+    <button mat-button>SHARE</button>
+  </mat-card-actions>
+</mat-card>
+
