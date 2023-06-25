@@ -68,7 +68,8 @@
               "browserTarget": "blog:build:production"
             },
             "development": {
-              "browserTarget": "blog:build:development"
+              "browserTarget": "blog:build:development",
+              "proxyConfig": "src/proxy.conf.json"
             }
           },
           "defaultConfiguration": "development"

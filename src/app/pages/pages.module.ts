@@ -24,7 +24,7 @@ import {EntradasTarjetaComponent} from './components/entradas-tarjeta/entrada-ta
   imports: [
     CommonModule,
 		PagesRoutingModule,
-		MaterialModule
+		MaterialModule,
   ],
 	exports: [
 		PagesRoutingModule,

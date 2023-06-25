@@ -17,7 +17,7 @@ import {EntradasService} from '../services/entradas.service';
 
 		ngOnInit() { 
 			this.service.getEntradas().subscribe(data => {
-				 this.entradas.push(data)
+				this.entradas = data;
 
 			})
 		}
